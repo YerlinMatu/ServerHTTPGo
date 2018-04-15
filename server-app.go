@@ -6,10 +6,11 @@ import (
 );
 
 func main() {
+	localport := ":3000";
 	fmt.Println("Server run in port 3000");
 	http.HandleFunc("/", func(res http.ResponseWriter, req *http.Request) {
 		http.ServeFile(res, req, "index.html");	
-	})
+	});
 
-	http.ListenAndServe(":3000", nil);
+	http.ListenAndServe(localport, nil);
 }
