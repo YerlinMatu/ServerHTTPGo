@@ -13,8 +13,8 @@ type Movie struct {
 }
 
 func main() {
-	localport := ":3000";
-	fmt.Println("Server run in port 3000");
+	localport := ":8080";
+	fmt.Printf("Server run in port %s", localport);
 
 	http.HandleFunc("/", func(res http.ResponseWriter, req *http.Request) {
 		http.ServeFile(res, req, "index.html");	

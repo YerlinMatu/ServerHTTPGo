@@ -7,4 +7,9 @@ go run server-simple.go
 go run server-app.go
 ```
 
+### browser.
+```
+http://localhost:3000
+```
+[!screen](brand/screenshot.png)
 
