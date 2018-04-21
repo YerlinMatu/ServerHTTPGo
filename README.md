@@ -11,5 +11,5 @@ go run server-app.go
 ```
 http://localhost:3000
 ```
-[!screen](brand/screenshot.png)
+![screen](brand/screenshot.png)
 
