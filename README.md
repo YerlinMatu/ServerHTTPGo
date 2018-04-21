@@ -9,7 +9,7 @@ go run server-app.go
 
 ### browser.
 ```
-http://localhost:3000
+http://localhost:8080
 ```
 ![screen](brand/screenshot.png)
 
